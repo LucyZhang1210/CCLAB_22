@@ -6,3 +6,9 @@ html, body {
 canvas {
   display: block;
 }
+
+#tupian{
+position:absolute;
+left: 200px;
+top:0px;
+}
