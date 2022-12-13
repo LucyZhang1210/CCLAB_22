@@ -2,6 +2,7 @@ let singerSing = [false, false, false];//是否歌唱
 let singerNotice = [false, false, false];//是否提示
 let currentpos;
 let circles = [];
+let mySounds=[];
 const main=document.getElementById('main');
 const vocal_1=document.getElementById('vocal1');
 const vocal_2=document.getElementById('vocal2');
