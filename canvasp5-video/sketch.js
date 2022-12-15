@@ -211,6 +211,9 @@ class soundPlay {
       if (singerSingPast[i] == true) {
         this.playing = true;
       }  
+      if(singerSingPast[0]==false && singerSingPast[1]==false && singerSingPast[2]==false &&singerSingPast[3]==false){
+        this.playing = false;
+      }
     }
 
     if (this.playing == true) {
